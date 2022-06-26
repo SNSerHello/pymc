@@ -1,3 +1,7 @@
+制作pymc3 wheel
+$ git checkout v3.11.5
+$ python3 setup.py bdist_wheel --universal
+
 .. image:: https://cdn.rawgit.com/pymc-devs/pymc/main/docs/logos/svg/PyMC_banner.svg
     :height: 100px
     :alt: PyMC logo
