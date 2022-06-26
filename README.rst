@@ -1,6 +1,6 @@
 制作pymc3 wheel
 ===============
-$ git checkout v3.11.5
+$ git checkout v3.11.4
 
 $ python3 setup.py bdist_wheel --universal
 
