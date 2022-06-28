@@ -1,9 +1,15 @@
-制作pymc3 wheel
-===============
-$ git checkout v3.11.4
+直接使用Anaconda搭建pymc3环境
+===========================
+$ conda create -n pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano cudatoolkit
 
+使用v3.11.4制作pymc3 wheel
+===========================
+$ git checkout v3.11.4
 $ python3 setup.py bdist_wheel --universal
 
+使用最新的代码制作pymc4 wheel
+===========================
+$ python3 setup.py bdist_wheel --universal
 
 .. image:: https://cdn.rawgit.com/pymc-devs/pymc/main/docs/logos/svg/PyMC_banner.svg
     :height: 100px
