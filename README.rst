@@ -7,6 +7,10 @@
 - $ conda create -n py38-pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano cudatoolkit cudnn
 - $ conda create -n pymc4 -c conda-forge pymc python ipython pip bambi theano cudatoolkit cudnn
 
+如果需要特定的CUDA与CUDNN版本，比如cuda10.2+cudnn7.6，可以通过类似如下的命令
+
+$ conda create -n py38-pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano cudatoolkit=10.2 cudnn=7.6
+
 搭建好环境后，可以参考：https://docs.pymc.io/en/v3/nb_examples/index.html 的例子来进行double check。
 
 使用v3.11.4制作pymc3 wheel
