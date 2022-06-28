@@ -2,6 +2,8 @@
 ===========================
 $ conda create -n pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano cudatoolkit
 
+搭建好环境后，可以参考：https://docs.pymc.io/en/v3/nb_examples/index.html 的例子来进行double check。
+
 使用v3.11.4制作pymc3 wheel
 ===========================
 $ git checkout v3.11.4
