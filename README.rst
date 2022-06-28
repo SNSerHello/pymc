@@ -1,7 +1,8 @@
 直接使用Anaconda搭建pymc3环境
 ===========================
 
-可以更加需要制作自己的环境，比如
+可以根据需要制作自己的环境，比如
+
 - $ conda create -n py37-pymc3 -c conda-forge pymc python=3.7 ipython pip bambi theano cudatoolkit cudnn
 - $ conda create -n py38-pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano cudatoolkit cudnn
 - $ conda create -n pymc4 -c conda-forge pymc python ipython pip bambi theano cudatoolkit cudnn
