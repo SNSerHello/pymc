@@ -5,6 +5,7 @@ $ conda create -n pymc3 -c conda-forge pymc python=3.8 ipython pip bambi theano 
 使用v3.11.4制作pymc3 wheel
 ===========================
 $ git checkout v3.11.4
+
 $ python3 setup.py bdist_wheel --universal
 
 使用最新的代码制作pymc4 wheel
